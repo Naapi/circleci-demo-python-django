@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/Project/WebAppCircleCI/circleci-demo-python-django
+    working_directory: /Users/naapi/Projects/WebAppCircleCI/circleci-demo-python-django/
     docker:
       - image: circleci/python:3.6.4
         environment:
